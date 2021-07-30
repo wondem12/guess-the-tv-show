@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Section = styled.section`
   padding: 20px 0 0;
+  text-align: center;
 `;
 
 export const StyledTitle = styled.ul`
