@@ -13,6 +13,7 @@ export const Main = styled.div`
 export const MainTitle = styled.div`
   font-size: ${(p) => p.theme.fonts.xxl};
   margin-bottom: 0.5rem;
+  text-align: center;
 `;
 
 export const StyledInput = styled.input<{ $wrongAnswer?: boolean }>`
