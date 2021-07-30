@@ -21,7 +21,7 @@ const Title: FC<Props> = ({ tvShowName, rightAnswer }) => {
           )}
         </li>
       ))}
-      <li>&nbsp;</li>
+      <li className="space">&nbsp;</li>
     </Style.StyledTitle>
   ));
 
