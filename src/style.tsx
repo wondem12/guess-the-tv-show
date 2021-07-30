@@ -19,6 +19,9 @@ export const MainTitle = styled.div`
 export const StyledInput = styled.input<{ $wrongAnswer?: boolean }>`
   height: 3rem;
   width: 20%;
+  @media screen and (${(p) => p.theme.sizes.laptopL}) {
+    width: 70%;
+  }
   margin: 1rem 0;
   border-radius: ${(p) => p.theme.mixin.borderRadius};
   color: ${(p) => p.theme.textColor};
