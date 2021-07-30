@@ -17,7 +17,7 @@ html{
 
 body {
     font-weight: 300;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Amatic SC', sans-serif;
     height:100%;
 }
 
